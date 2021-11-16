@@ -1,0 +1,16 @@
+{
+    "name": "SoundCloud album cover art downloader",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+          "matches": ["https://soundcloud.com/*"],
+          "js": ["jquery.js","content-script.js"]
+        }
+      ]
+}
+
