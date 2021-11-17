@@ -57,6 +57,7 @@ body{
     width: 33.33%;
 }
 .btn{
+    padding: 5px;
     text-align: center;
     background-color: transparent;
     font-size: 12px;
@@ -77,9 +78,10 @@ body{
 }
 .btn-primary:hover,.btn-primary:active{
     box-shadow: 0 0 10px var(--bright);
+    transform: translateY(-2px);
 }
 .modal-footer{
-    background-color: #5555;
+    background-color: var(--dark);
     color: var(--bright);
     margin: 10px -10px -10px -10px ;
     padding: 10px;

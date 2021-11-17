@@ -1,7 +1,13 @@
 {
     "name": "SoundCloud album cover art downloader",
+    "description": "Download high resolution artworks from SoundCloud tracks with a single click",
     "version": "0.0.1",
     "manifest_version": 2,
+    "author": "Samartha",
+    "icons": {
+      "128": "assets/images/icon_128.png",
+      "256": "assets/images/icon_256.png"
+    },
     "browser_action": {
         "default_popup": "popup.html"
     },
