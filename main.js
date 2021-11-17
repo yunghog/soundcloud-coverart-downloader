@@ -1,11 +1,8 @@
-// document.getElementById('btn').addEventListener("click", downloadArtwork);
-// function downloadArtwork() {
-//     let url = localStorage.getItem('sc-artwork-url');
-//     let dBtn = document.getElementById('dowdownload-url');
-//     window.alert(url);
-// }
 const setDOMInfo = info => {
-    document.getElementById('url').innerHTML = info.url;
+    document.getElementById('artist').innerHTML = info.artist;
+    document.getElementById('song').innerHTML = info.song;
+    document.getElementById('download-url').href = info.url;
+    document.getElementById('cover-art').src = info.url;
   };
 window.addEventListener('DOMContentLoaded', () => {
     chrome.tabs.query({

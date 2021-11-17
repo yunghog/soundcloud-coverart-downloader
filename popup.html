@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
     <title>Document</title>
 </head>
 <body>
-    hello wrld
-    <div id="url"></div>
-    <button id='btn'>
-    <a href="" id="download-url" download>fa</a>
-    </button>
+    <div class="modal-con">
+        <div class="modal-header">
+            <h2>SoundCloud Cover Art Downloader</h2>
+        </div>
+        <br/>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-4">
+                    <img id="cover-art" src="" alt="cover-art" width="100%">
+                </div>
+                <div class="col-8">
+                    <h3 id="song"></h3>
+                    <h4 id="artist"></h4>
+                </div>
+            </div>
+            <a href="" id="download-url" target= "_blank" download>
+                <button id="download-btn" class="btn btn-primary btn-block">
+                    download artwork 
+                </button>
+            </a>
+        </div>
+        <div class="modal-footer">
+           Developed by <a href="https://github.com/yunghog" target="_blank">Samartha</a>
+        </div>
+    </div>
+    
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

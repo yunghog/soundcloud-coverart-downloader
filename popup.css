@@ -1,0 +1,93 @@
+:root{
+    --primary: rgb(255,85,0);
+    --secondary: rgb(140,140,140);
+    --bright: rgb(255,51,0);
+    --dark: rgb(51,51,51);
+    --light: rgb(255,255,255);
+}
+@font-face {
+    font-family: "poppins";
+    src: url(assets/fonts/poppins.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+}
+.modal-con{
+    width: 250px;
+}
+.modal-header{
+    background-color: var(--primary);
+    color: var(--light);
+    margin: -20px -10px 0px -10px ;
+    padding: 10px;
+}
+.modal-header h2{
+    margin-bottom: 0px;
+}
+.modal-body h3,h4{
+    margin: 0px;
+    color: var(--dark);
+}
+.modal-body h3{
+    font-size: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.row{
+    display: inline-flex;
+}
+.col-2,.col-6,.col-4,.col-8{
+    display: block;
+    margin: 0px 5px;
+}
+.col-2{
+    width: 16.67%;
+}
+.col-6{
+    width: 50%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-4{
+    width: 33.33%;
+}
+.btn{
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: "poppins";
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn-block{
+    width: 100%;
+}
+.btn-primary{
+    background-color: var(--primary);
+    color: var(--light);
+}
+.btn-primary:hover,.btn-primary:active{
+    box-shadow: 0 0 10px var(--bright);
+}
+.modal-footer{
+    background-color: #5555;
+    color: var(--bright);
+    margin: 10px -10px -10px -10px ;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.modal-footer a{
+    text-decoration: none;
+    color: inherit;
+}
