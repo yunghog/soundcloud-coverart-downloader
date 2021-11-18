@@ -1,2 +1,6 @@
 # soundcloud-coverart-downloader
-chrome extension for downloading soundcloud tracks cover art
+Download high resolution soundcloud track coverart with a single click
+
+```
+updating the documentation soon :)
+```
