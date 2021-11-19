@@ -93,3 +93,6 @@ body{
     text-decoration: none;
     color: inherit;
 }
+.modal-msg{
+    display: none;
+}
