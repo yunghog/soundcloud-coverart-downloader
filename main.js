@@ -3,6 +3,7 @@ const setDOMInfo = info => {
     document.getElementById('song').innerHTML = info.song;
     document.getElementById('download-url').href = info.url;
     document.getElementById('cover-art').src = info.url;
+    document.getElementById('img-open-newtab').href = info.url;
     if(info.artist == '' || info.song == '' || info.url == ''){
       // showMsg('Please load a song to get the artwork.');
       document.getElementById('info-content').style.display='none';

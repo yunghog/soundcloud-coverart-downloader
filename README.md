@@ -7,7 +7,4 @@
     </a>
     <p>Download high resolution soundcloud track coverart with a single click</p>
 </div>
-
-```
-updating the documentation soon :)
-```
+</br>
